@@ -88,3 +88,35 @@
         color: white;
     }
     /* fin section1 */
+    /* début section 2 */
+    .section-2{
+        height: 100vh;
+        width: 100%;
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .section2-child1{
+        height: 10%;
+        width: 60%;
+        border: solid 2px black;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .section2-child2{
+        height: 30%;
+        width: 60%;
+        border: solid 2px black;
+        display: flex;
+        justify-content: space-around;
+    }
+    .section2-child22{
+        height: 100%;
+        width: 30%;
+        
+        border: red solid 2px;
+    }
