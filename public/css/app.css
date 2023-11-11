@@ -1,71 +1,296 @@
-.b{
-    font-family: sans-serif;
-    display: flex;
-  justify-content: center;
-  font-size: larger;
+/* partie achraf */
+* {
+    padding: 0%;
+    margin: 0%;
 }
-.txt{
-    display: flex;
-    justify-content: center;
-    font-family: sans-serif;
-    font-family: sans-serif;
-}
-.w1{
-display: flex;
-justify-content: center;
-gap: 5rem;
 
-
-}
-.d{
-    font-family: sans-serif;
-    font-size: larger;
-    
-}
-.w2{
-    display: flex;
-    justify-content: center;
-    
-}
-.img1{
-    width: 300px;
-}
-.blue{
-    background-color: blueviolet;
-    align-items: center;
+/* navbar achraf */
+nav {
     width: 100%;
-    height: 300px;
+    height: 8vh;
+    display: flex;
+}
+
+.nav-child1 {
+    width: 50vw;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.nav-child2 {
+    width: 40vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.a-blue {
+    text-decoration: none;
+    color: blue;
+}
+
+.a-gray {
+    text-decoration: none;
+    color: gray;
+    font-family: cursive;
+}
+
+.nav-btn {
+    width: 8vw;
+    height: 5vh;
+    font-size: large;
+    font-family: cursive;
+    border-radius: 10px;
+    background-color: blue;
+    border: solid 3px blue;
+    color: white;
+}
+
+/* fin navbar achraf */
+/* achraf section 1 */
+.section-1 {
+    height: 80vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.bold{
+
+.s1-imag {
+    width: 100%;
+    height: 50vh;
+}
+
+.section1-child1 {
+    width: 60%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section1-child2 {
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section1-pic {
+    width: 16%;
+    height: 80%;
+}
+
+.section1-btn {
+    width: 20%;
+    height: 8%;
+    background-color: blue;
+    border: solid 3px blue;
+    border-radius: 10px;
+}
+
+.a-white {
+    color: white;
+    text-decoration: none;
+}
+
+/* fin section1 */
+/* début section 2 */
+.section-2 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(238, 245, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section2-child1-p {
+    font-size: x-large;
+    font-family: cursive;
+    color: rgb(87, 86, 86);
+}
+
+.section2-child1 {
+    height: 20%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.section2-child2 {
+    height: 30%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section2-child22 {
+    height: 80%;
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.s2-icon {
+    font-size: 200%;
+    background-color: rgb(204, 207, 206);
+    padding: 3%;
+    border-radius: 100%;
+}
+
+.p-sous-icon {
+    font-size: x-large;
+}
+
+.p-sous-p {
+    color: gray;
+    font-family: cursive;
+}
+
+/* fin section 2 */
+/* partie wissal  */
+.b {
+    font-family: cursive;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    color: rgb(87, 86, 86)
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    font-family: cursive;
+    font-size: 120%;
+}
+
+.w0{
+    width: 100%;
+    height: 20vh; 
+}
+.w1 {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    gap: 10rem;
+
+}
+
+.d {
+    font-family: cursive;
+    font-size: medium;
+    text-align: center;
+    color: rgb(87, 86, 86)
+}
+
+.w2 {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+    gap: 10rem;
+}
+
+.img1 {
+    width: 300px;
+}
+
+.blue {
+    background-color: rgb(131, 0, 253);
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 70px;
+}
+
+.bold {
     font-size: larger;
     color: white;
-    font-family: sans-serif;
+    font-family: cursive;
+    font-size: 150%;
     display: flex;
     justify-content: center;
 }
-.p{
+
+.p {
     color: white;
     display: flex;
     justify-content: center;
+    font-family: cursive;
 }
-.deg{
+
+.deg {
     font-size: x-large;
     color: white;
     font-family: sans-serif;
-    list-style: none;
-    text-decoration: none;
     display: flex;
-
-    
-    
+    flex-direction: column;
+    width: 30%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
 }
-.deg1{
+.deg0{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.deg1 {
     color: white;
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    
+    width: 80%;
+    height: 50%;
+    align-items: center;
 }
+.deg2{
+    color: white;
+}
+.Section3-parent {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+.deg-p{
+    font-size: 300%;
+}
+
+
+/* fin partie wissal */
