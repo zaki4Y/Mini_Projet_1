@@ -30,3 +30,42 @@ gap: 5rem;
 .img1{
     width: 300px;
 }
+.blue{
+    background-color: blueviolet;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bold{
+    font-size: larger;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.p{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.deg{
+    font-size: x-large;
+    color: white;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+
+    
+    
+}
+.deg1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
