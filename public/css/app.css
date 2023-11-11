@@ -1,0 +1,44 @@
+    /* partie achraf */
+    * {
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    nav {
+        width: 100%;
+        height: 8vh;
+        display: flex;
+    }
+    
+    .nav-child1 {
+        width: 50vw;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+
+    }
+    .nav-child2 {
+        width: 40vw;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: x-large; 
+        color: aliceblue;
+    }
+    a{
+        text-decoration: none;
+        color: blue;
+    }
+.nav-btn{
+    width: 8vw;
+    height: 5vh ;
+    font-size: large; 
+    border-radius: 10px;
+    background-color: blue;
+    border: solid 3px blue;
+    color: white;
+}
