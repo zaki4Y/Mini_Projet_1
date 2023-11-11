@@ -1,0 +1,32 @@
+.b{
+    font-family: sans-serif;
+    display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-family: sans-serif;
+}
+.w1{
+display: flex;
+justify-content: center;
+gap: 5rem;
+
+
+}
+.d{
+    font-family: sans-serif;
+    font-size: larger;
+    
+}
+.w2{
+    display: flex;
+    justify-content: center;
+    
+}
+.img1{
+    width: 300px;
+}
